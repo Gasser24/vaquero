@@ -1,0 +1,91 @@
+/* Use .css file to simplify styles of website*/
+/* Start with Body Styles*/
+body{
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header{
+    background-color: #d14635;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h2{
+    font-family: 'Satisfy', cursive;
+}
+
+/* header styles */
+/* Header font and color */
+header h1{
+    color: white;
+    font-size: 50px;
+
+}
+
+/* Header image */
+header img{
+    border-radius: 150px;
+    width: 300px;
+    border: 20px solid #483a94;
+}
+
+/* main Styles */
+main{
+    background-color: #FAAE2A;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+main img{
+    min-width: 110%;
+}
+
+h2{
+    font-size: 30px;
+    color: #e70c19;
+    margin: 40px 0 10px;
+}
+
+a{
+    color: #e70c19;
+}
+a:hover{
+    color: white;
+    background-color: #483a94;
+}
+
+/* Footer styles */
+footer{
+    background-color: #d14635;
+    text-align: center;
+    color: white;
+    padding: 50px
+}
+
+footer img{
+    min-width: 120%;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+}
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+
+/* Caption Styles */
+p.caption{
+    color:#999999;
+    font-style: italic;
+    margin-top: 0;
+}
