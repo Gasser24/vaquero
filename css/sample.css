@@ -42,17 +42,17 @@ main{
 }
 
 main img{
-    min-width: 110%;
+    width: 700px;
 }
 
 h2{
     font-size: 30px;
-    color: #e70c19;
+    color: #d14635;
     margin: 40px 0 10px;
 }
 
 a{
-    color: #e70c19;
+    color: #d14635;
 }
 a:hover{
     color: white;
@@ -68,7 +68,8 @@ footer{
 }
 
 footer img{
-    min-width: 120%;
+    width: 100px;
+    border: 5px solid #483a94;
 }
 
 footer p{
@@ -85,7 +86,7 @@ footer a:hover{
 
 /* Caption Styles */
 p.caption{
-    color:#999999;
+    color:#4c3ca5;
     font-style: italic;
     margin-top: 0;
 }
